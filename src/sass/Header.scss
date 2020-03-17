@@ -1,0 +1,704 @@
+@media (min-width: 320px) {
+  .headerWrap {
+    min-width: 320px;
+    height: 3.25rem;
+    background-color: $headerColor;
+    .headerMobile {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      flex-direction: row;
+      .burgerBox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 3.25rem;
+        width: 15%;
+        .fas {
+          color: white;
+          font-size: 2.75rem;
+        }
+      }
+      .logoContent {
+        height: 3.25rem;
+        width: 85%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .logoText {
+          color: white;
+          text-transform: uppercase;
+
+          .changeColor {
+            color: $primaryColor;
+          }
+        }
+      }
+      .barsMenuActive {
+        height: 100vh;
+        min-width: 100vw;
+        background-color: black;
+        display: block;
+        .barsMenuContent {
+          text-align: center;
+          height: 100%;
+          width: 100%;
+          padding-top: 4rem;
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+          flex-direction: row;
+          flex-wrap: wrap;
+          .menuList {
+            list-style: none;
+            width: 100%;
+            height: 80%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+            .item {
+              color: white;
+              font-size: 2.41rem;
+              text-transform: uppercase;
+              font-weight: bold;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 480px) {
+  .headerWrap {
+    min-width: 480px;
+    height: 4.25rem;
+    background-color: $headerColor;
+    .headerMobile {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      flex-direction: row;
+      .burgerBox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 4.25rem;
+        width: 17%;
+        .fas {
+          color: white;
+          font-size: 3.75rem;
+        }
+      }
+      .logoContent {
+        height: 4.25rem;
+        width: 77%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .logoText {
+          color: white;
+          text-transform: uppercase;
+          font-size: 3.12rem;
+
+          .changeColor {
+            color: $primaryColor;
+          }
+        }
+      }
+      .barsMenuActive {
+        height: 100vh;
+        min-width: 100vw;
+        background-color: black;
+        display: block;
+        .barsMenuContent {
+          text-align: center;
+          height: 100%;
+          width: 100%;
+          padding-top: 4rem;
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+          flex-direction: row;
+          flex-wrap: wrap;
+          .menuList {
+            list-style: none;
+            width: 100%;
+            height: 80%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+            .item {
+              color: white;
+              font-size: 2.81rem;
+              text-transform: uppercase;
+              font-weight: bold;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 600px) {
+  .headerWrap {
+    min-width: 600px;
+    height: 4.45rem;
+    background-color: $headerColor;
+    .headerMobile {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      flex-direction: row;
+      .burgerBox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 4.45rem;
+        width: 20%;
+        .fas {
+          color: white;
+          font-size: 4.75rem;
+        }
+      }
+      .logoContent {
+        height: 4.25rem;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .logoText {
+          color: white;
+          text-transform: uppercase;
+          font-size: 3.8rem;
+
+          .changeColor {
+            color: $primaryColor;
+          }
+        }
+      }
+      .barsMenuActive {
+        height: 100vh;
+        min-width: 100vw;
+        background-color: black;
+        display: block;
+        .barsMenuContent {
+          text-align: center;
+          height: 100%;
+          width: 100%;
+          padding-top: 4rem;
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+          flex-direction: row;
+          flex-wrap: wrap;
+          .menuList {
+            list-style: none;
+            width: 100%;
+            height: 80%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+            .item {
+              color: white;
+              font-size: 2.95rem;
+              text-transform: uppercase;
+              font-weight: bold;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 768px) {
+  .headerWrap {
+    min-width: 768px;
+    height: 5.85rem;
+    background-color: $headerColor;
+    .headerMobile {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      flex-direction: row;
+      .burgerBox {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height: 5.85rem;
+        width: 15%;
+        padding-left: 0.9rem;
+        .fas {
+          color: white;
+          font-size: 4.75rem;
+        }
+      }
+      .logoContent {
+        height: 4.45rem;
+        width: 78%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .logoText {
+          color: white;
+          text-transform: uppercase;
+          font-size: 4.55rem;
+
+          .changeColor {
+            color: $primaryColor;
+          }
+        }
+      }
+      .barsMenuActive {
+        height: 100vh;
+        min-width: 100vw;
+        background-color: black;
+        display: block;
+        .barsMenuContent {
+          text-align: center;
+          height: 100%;
+          width: 100%;
+          padding-top: 4rem;
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+          flex-direction: row;
+          flex-wrap: wrap;
+          .menuList {
+            list-style: none;
+            width: 100%;
+            height: 80%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+            .item {
+              color: white;
+              font-size: 3rem;
+              text-transform: uppercase;
+              font-weight: bold;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .headerWrap {
+    min-width: 992px;
+    height: 6.21rem;
+    background-color: $headerColor;
+    .headerMobile {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      flex-direction: row;
+      .burgerBox {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height: 6.21rem;
+        width: 15%;
+        padding-left: 1.21rem;
+        .fas {
+          color: white;
+          font-size: 6.21rem;
+        }
+      }
+      .logoContent {
+        height: 4.45rem;
+        width: 78%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .logoText {
+          color: white;
+          text-transform: uppercase;
+          font-size: 4.84rem;
+
+          .changeColor {
+            color: $primaryColor;
+          }
+        }
+      }
+      .barsMenuActive {
+        height: 100vh;
+        min-width: 100vw;
+        background-color: black;
+        display: block;
+        .barsMenuContent {
+          text-align: center;
+          height: 100%;
+          width: 100%;
+          padding-top: 4rem;
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+          flex-direction: row;
+          flex-wrap: wrap;
+          .menuList {
+            list-style: none;
+            width: 100%;
+            height: 80%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+            .item {
+              color: white;
+              font-size: 3.41rem;
+              text-transform: uppercase;
+              font-weight: bold;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 1023px) {
+  .headerWrap {
+    min-width: 1024px;
+    height: 6.56rem;
+    background-color: $headerColor;
+    .headerMobile {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      flex-direction: row;
+      .burgerBox {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height: 6.56rem;
+        width: 15%;
+        padding-left: 1.29rem;
+        .fas {
+          color: white;
+          font-size: 6.56rem;
+        }
+      }
+      .logoContent {
+        height: 4.75rem;
+        width: 78%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .logoText {
+          color: white;
+          text-transform: uppercase;
+          font-size: 5.93rem;
+
+          .changeColor {
+            color: $primaryColor;
+          }
+        }
+      }
+      .barsMenuActive {
+        height: 100vh;
+        min-width: 100vw;
+        background-color: black;
+        display: block;
+        .barsMenuContent {
+          text-align: center;
+          height: 100%;
+          width: 100%;
+          padding-top: 4rem;
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+          flex-direction: row;
+          flex-wrap: wrap;
+          .menuList {
+            list-style: none;
+            width: 100%;
+            height: 80%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+            .item {
+              color: white;
+              font-size: 3.85rem;
+              text-transform: uppercase;
+              font-weight: bold;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 1025px) {
+  .headerWrap {
+    min-width: 1025px;
+    height: 2.75rem;
+    background-color: $headerColor;
+    .headerMobile {
+      display: none;
+    }
+    .headerDesktop {
+      height: 2.75rem;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+
+      .desktopLogo {
+        height: 2.75rem;
+        width: 50%;
+        .logoText {
+          color: white;
+          text-transform: uppercase;
+          padding-left: 1.65rem;
+          line-height: 2.75rem;
+          .changeColor {
+            color: $primaryColor;
+          }
+        }
+      }
+      .navBox {
+        height: 2.75rem;
+        width: 50%;
+        .navList {
+          height: 2.75rem;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          list-style: none;
+          .item {
+            color: white;
+            font-weight: bolder;
+            font-size: 1.24rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1280px) {
+  .headerWrap {
+    min-width: 1280px;
+    height: 3.55rem;
+    background-color: $headerColor;
+    .headerMobile {
+      display: none;
+    }
+    .headerDesktop {
+      height: 3.55rem;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+
+      .desktopLogo {
+        height: 3.55rem;
+        width: 50%;
+        .logoText {
+          color: white;
+          text-transform: uppercase;
+          padding-left: 1.65rem;
+          line-height: 3.55rem;
+          font-size: 2.7rem;
+          .changeColor {
+            color: $primaryColor;
+          }
+        }
+      }
+      .navBox {
+        height: 3.55rem;
+        width: 50%;
+        .navList {
+          height: 3.55rem;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          list-style: none;
+          .item {
+            color: white;
+            font-weight: bolder;
+            font-size: 1.44rem;
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 1366px) {
+  .headerWrap {
+    min-width: 1366px;
+    height: 3.84rem;
+    background-color: $headerColor;
+    .headerMobile {
+      display: none;
+    }
+    .headerDesktop {
+      height: 3.84rem;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+
+      .desktopLogo {
+        height: 3.84rem;
+        width: 50%;
+        .logoText {
+          color: white;
+          text-transform: uppercase;
+          padding-left: 1.65rem;
+          line-height: 3.84rem;
+          font-size: 2.9rem;
+          .changeColor {
+            color: $primaryColor;
+          }
+        }
+      }
+      .navBox {
+        height: 3.84rem;
+        width: 50%;
+        .navList {
+          height: 3.84rem;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          list-style: none;
+          .item {
+            color: white;
+            font-weight: bolder;
+            font-size: 1.81rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1600px) {
+  .headerWrap {
+    min-width: 1600px;
+    height: 4.41rem;
+    background-color: $headerColor;
+    .headerMobile {
+      display: none;
+    }
+    .headerDesktop {
+      height: 4.41rem;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+
+      .desktopLogo {
+        height: 4.41rem;
+        width: 50%;
+        .logoText {
+          color: white;
+          text-transform: uppercase;
+          padding-left: 1.65rem;
+          line-height: 4.41rem;
+          font-size: 3.3rem;
+          .changeColor {
+            color: $primaryColor;
+          }
+        }
+      }
+      .navBox {
+        height: 4.41rem;
+        width: 50%;
+        .navList {
+          height: 4.41rem;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          list-style: none;
+          .item {
+            color: white;
+            font-weight: bolder;
+            font-size: 1.81rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1920px) {
+  .headerWrap {
+    min-width: 1920px;
+    height: 4rem;
+    background-color: $headerColor;
+    .headerMobile {
+      display: none;
+    }
+    .headerDesktop {
+      height: 4rem;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+
+      .desktopLogo {
+        height: 4rem;
+        width: 50%;
+        .logoText {
+          color: white;
+          text-transform: uppercase;
+          padding-left: 1.65rem;
+          line-height: 4rem;
+          font-size: 2.66rem;
+          .changeColor {
+            color: $primaryColor;
+          }
+        }
+      }
+      .navBox {
+        height: 4rem;
+        width: 50%;
+        .navList {
+          height: 4rem;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          list-style: none;
+          .item {
+            color: white;
+            font-weight: bolder;
+            font-size: 1.87rem;
+            position: relative;
+            padding: 4rem;
+
+            .dropDown {
+              position: absolute;
+              top: 13rem;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              list-style: none;
+              background-color: $headerColor;
+              .dropItem {
+                color: white;
+                padding: 2rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
