@@ -3,6 +3,8 @@
     min-width: 320px;
     height: 3.25rem;
     background-color: $headerColor;
+    position: absolute;
+    z-index: 2;
     .headerMobile {
       display: flex;
       justify-content: space-between;
