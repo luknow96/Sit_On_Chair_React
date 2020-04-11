@@ -1,0 +1,57 @@
+@media (min-width: 320px) {
+  .priceWrap {
+    min-width: 320px;
+    height: 133rem;
+    background-color: $priceColor;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    .priceHeader {
+      position: relative;
+      width: 100%;
+      height: 4rem;
+      .priceHeaderText {
+        font-weight: bold;
+        line-height: 4rem;
+        padding-left: 0.85rem;
+      }
+      .underlineLine {
+        @include underlineLine(0.85rem, 3.2rem, 46%);
+      }
+    }
+    .priceBox {
+      width: 100%;
+      height: 130rem;
+      padding: 0 0.5rem;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      flex-direction: column;
+      .box-1 {
+        margin-top: 2rem;
+        position: relative;
+        width: 100%;
+        height: 40rem;
+        border: 1px solid gray;
+        @include priceBox(2);
+        @include priceTouch;
+      }
+      .box-2 {
+        position: relative;
+        width: 100%;
+        height: 40rem;
+        border: 1px solid gray;
+        @include priceBox(3);
+        @include priceTouch;
+      }
+      .box-3 {
+        position: relative;
+        width: 100%;
+        height: 40rem;
+        border: 1px solid gray;
+        @include priceBox(4);
+        @include priceTouch;
+      }
+    }
+  }
+}
