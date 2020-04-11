@@ -47,37 +47,6 @@
         font-size: 1.51rem;
         color: white;
         border-radius: 1rem;
-        position: relative;
-        .chairImg {
-          display: block;
-          width: 100%;
-          position: absolute;
-          transform: translate(-50%, -50%);
-          left: 50%;
-          top: 7rem;
-        }
-        .chairDescription {
-          position: absolute;
-          transform: translate(-50%, -50%);
-          top: 17rem;
-          left: 50%;
-          display: block;
-          width: 100%;
-          padding: 0 0.65rem;
-          text-align: justify;
-        }
-        .showMore {
-          position: absolute;
-          transform: translate(-50%, -50%);
-          left: 50%;
-          bottom: 0;
-          background-color: $primaryColor;
-          border: none;
-          border-radius: 0.8rem;
-          color: white;
-          font-size: 1.32rem;
-          padding: 1.2rem 1rem;
-        }
       }
     }
   }
