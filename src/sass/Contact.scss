@@ -1,0 +1,74 @@
+@media (min-width: 320px) {
+  .contactWrap {
+    min-width: 320px;
+    height: 35rem;
+    .contactHeader {
+      width: 100%;
+      height: 4rem;
+      line-height: 4rem;
+      position: relative;
+      .contactHeaderText {
+        text-transform: uppercase;
+        font-weight: bold;
+        padding-left: 0.85rem;
+      }
+      .underlineLine {
+        @include underlineLine(0.85rem, 3.2rem, 66%);
+      }
+    }
+    .formBox {
+      width: 100%;
+      height: 29rem;
+      position: relative;
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+      flex-wrap: wrap;
+      padding: 0 1rem;
+      input {
+        width: 100%;
+        height: 3.11rem;
+        border: 1px solid $primaryColor;
+        line-height: 3.11rem;
+        &::placeholder {
+          font-size: 1.45rem;
+        }
+      }
+      textarea {
+        height: 7.13rem;
+        width: 100%;
+        border: 1px solid $primaryColor;
+        line-height: 3.11rem;
+        &::placeholder {
+          font-size: 2.15rem;
+        }
+      }
+      .checkbox {
+        height: 3rem;
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        padding: 0 1rem;
+        .tickBox {
+          width: 3.25rem;
+          height: 3.25rem;
+          border: 1px solid $primaryColor;
+        }
+        .agreeText {
+          padding-left: 1rem;
+        }
+      }
+      .send {
+        padding: 1rem 2rem;
+        background-color: $primaryColor;
+        color: white;
+        text-transform: uppercase;
+        border: none;
+        font-size: 1.85rem;
+        margin: 0 1rem;
+        margin-top: 1.55rem;
+      }
+    }
+  }
+}
