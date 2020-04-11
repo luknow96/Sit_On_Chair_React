@@ -1,0 +1,35 @@
+@media (min-width: 320px) {
+  .footerWrap {
+    width: 320px;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    .leftSide {
+      height: 100%;
+      width: 45%;
+      line-height: 4rem;
+      .copyrightText {
+        display: block;
+        width: 100%;
+        height: 100%;
+        font-size: 0.5rem;
+      }
+    }
+    .rightSide {
+      width: 55%;
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      .socialIcon {
+        display: block;
+        width: 2rem;
+        height: 2rem;
+      }
+    }
+  }
+}
