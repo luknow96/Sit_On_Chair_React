@@ -3,8 +3,6 @@ import blackChair from "../assets/images/black_chair.png";
 import redChair from "../assets/images/orange_chair.png";
 class Slider extends Component {
   state = {
-    currentWidth: window.innerWidth,
-    mobile: true,
     index: 0,
     slideList: [
       {
@@ -19,32 +17,7 @@ class Slider extends Component {
       },
     ],
   };
-  componentDidMount = () => {
-    if (this.state.currentWidth >= 1024) {
-      this.setState({
-        mobile: false,
-      });
-    } else if (this.state.currentWidth < 1024) {
-      this.setState({
-        mobile: true,
-      });
-    }
-    window.addEventListener("resize", this.resize);
-  };
-  resize = () => {
-    this.setState({
-      currentWidth: window.innerWidth,
-    });
-    if (this.state.currentWidth < 1024) {
-      this.setState({
-        mobile: true,
-      });
-    } else if (this.state.currentWidth >= 1024) {
-      this.setState({
-        mobile: false,
-      });
-    }
-  };
+
   nextImg = () => {
     if (this.state.index < this.state.slideList.length - 1) {
       this.setState({
