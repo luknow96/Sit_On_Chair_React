@@ -74,8 +74,8 @@ class Slider extends Component {
       <div className="sliderWrap">
         {this.state.mobile ? (
           <div className="mobileSlider">
-            <div className="leftArrow">
-              <i className="fas fa-chevron-left" onClick={this.prevImg} />
+            <div className="leftArrow" onClick={this.prevImg}>
+              <i className="fas fa-chevron-left" />
             </div>
             <div className="sliderContent">
               <img
