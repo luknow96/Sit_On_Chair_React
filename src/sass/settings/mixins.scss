@@ -1,0 +1,147 @@
+@mixin underlineLine($left, $top, $width) {
+  display: block;
+  position: absolute;
+  left: $left;
+  top: $top;
+  height: 0.6rem;
+  width: $width;
+  background-color: $primaryColor;
+}
+@mixin priceBox($quantityItems) {
+  .planNameBox {
+    width: 100%;
+    position: relative;
+    top: 0;
+    text-align: center;
+    .planTitle {
+      color: $primaryColor;
+      text-transform: uppercase;
+      font-size: 2rem;
+    }
+  }
+  .joinButton {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    bottom: 1rem;
+    padding: 0.85rem 1.7rem;
+    border: none;
+    border-radius: 2rem;
+    background-color: $primaryColor;
+    color: white;
+    font-size: 1rem;
+  }
+  .servicesBox {
+    position: absolute;
+    top: 18rem;
+    left: 0;
+    width: 100%;
+
+    @for $i from 1 through $quantityItems {
+      @if $i%2==0 {
+        .item-#{$i} {
+          background-color: $darker;
+          width: 100%;
+          height: 3rem;
+          text-align: center;
+          line-height: 3rem;
+          .serviceTitle {
+            color: gray;
+            font-size: 1.45rem;
+          }
+        }
+      } @else {
+        .item-#{$i} {
+          background-color: $brighter;
+          width: 100%;
+          height: 3rem;
+          text-align: center;
+          line-height: 3rem;
+          .serviceTitle {
+            color: gray;
+            font-size: 1.45rem;
+          }
+        }
+      }
+    }
+  }
+  .priceCircle {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 12rem;
+    width: 8.25rem;
+    height: 8.25rem;
+    border-radius: 50%;
+    border: 3px solid gray;
+    background-color: white;
+    text-align: center;
+
+    .priceValue {
+      font-size: 2.21rem;
+      font-weight: bold;
+      color: gray;
+      margin-top: 0.94rem;
+      margin-bottom: 1.14rem;
+    }
+    .priceDuration {
+      font-weight: bold;
+      color: gray;
+      text-transform: uppercase;
+    }
+  }
+  .firstCircle {
+    width: 4.125rem;
+    height: 4.125rem;
+    border: 3px solid gray;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+    left: 50%;
+    top: 0;
+    .secondCircle {
+      width: 2.125rem;
+      height: 2.125rem;
+      background-color: gray;
+      border-radius: 50%;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      left: 50%;
+      top: 50%;
+    }
+  }
+}
+@mixin priceTouch {
+  &:hover {
+    background-color: $primaryColor;
+    .planNameBox {
+      .planTitle {
+        color: white;
+      }
+    }
+    background-color: $primaryColor;
+    .planNameBox {
+      color: white;
+    }
+    .firstCircle {
+      background-color: $primaryColor;
+      .secondCircle {
+        background-color: white;
+      }
+    }
+    .priceCircle {
+      background-color: white;
+      border: none;
+      .priceValue {
+        color: $primaryColor;
+      }
+      .priceDuration {
+        color: $primaryColor;
+      }
+    }
+    .joinButton {
+      background-color: white;
+      color: $primaryColor;
+    }
+  }
+}
