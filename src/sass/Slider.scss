@@ -1,0 +1,50 @@
+@media (min-width: 320px) {
+  .sliderWrap {
+    min-width: 320px;
+    height: 100vh;
+    background-color: $sliderColor;
+    margin-bottom: 1rem;
+    .mobileSlider {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .leftArrow,
+      .rightArrow {
+        width: 3rem;
+        height: 3rem;
+        color: $primaryColor;
+        font-size: 2.5rem;
+        text-align: center;
+      }
+      .sliderContent {
+        height: 100%;
+        width: calc(100% - 6rem);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        .chairImg {
+          display: block;
+          width: 120%;
+          margin-top: 4rem;
+        }
+        .chairDescription {
+          margin-bottom: 9rem;
+          text-align: justify;
+        }
+      }
+      .showMore {
+        position: absolute;
+        bottom: 1rem;
+        padding: 1.25rem 4rem;
+        border: none;
+        background-color: $primaryColor;
+        font-size: 1.51rem;
+        color: white;
+        border-radius: 1rem;
+      }
+    }
+  }
+}
