@@ -4,58 +4,58 @@ class Header extends Component {
     currentWidth: window.innerWidth,
     mobile: true,
     mobileMenu: false,
-    dropDownActive: null
+    dropDownActive: null,
   };
 
   resize = () => {
     this.setState({
-      currentWidth: window.innerWidth
+      currentWidth: window.innerWidth,
     });
     if (this.state.currentWidth < 1024) {
       this.setState({
-        mobile: true
+        mobile: true,
       });
     } else if (this.state.currentWidth >= 1024) {
       this.setState({
-        mobile: false
+        mobile: false,
       });
     }
   };
   dropDownActive = () => {
     this.setState({
-      dropDownActive: true
+      dropDownActive: true,
     });
   };
   dropDownInactive = () => {
     this.setState({
-      dropDownActive: false
+      dropDownActive: false,
     });
   };
   componentDidMount = () => {
     if (this.state.currentWidth >= 1024) {
       this.setState({
-        mobile: false
+        mobile: false,
       });
     } else if (this.state.currentWidth < 1024) {
       this.setState({
-        mobile: true
+        mobile: true,
       });
     }
     window.addEventListener("resize", this.resize);
   };
   barsActive = () => {
     this.setState({
-      mobileMenu: true
+      mobileMenu: true,
     });
     if (this.state.mobileMenu === true) {
       this.setState({
-        mobileMenu: false
+        mobileMenu: false,
       });
     }
   };
   render() {
     return (
-      <header className="headerWrap">
+      <>
         {this.state.mobile ? (
           <div className="headerMobile">
             <div className="burgerBox">
@@ -115,7 +115,7 @@ class Header extends Component {
             </nav>
           </div>
         )}
-      </header>
+      </>
     );
   }
   componentWillUnmount = () => {
