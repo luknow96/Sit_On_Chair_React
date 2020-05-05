@@ -2,36 +2,7 @@ import React, { Component } from "react";
 import firstProducts from "../assets/images/box1_img.jpg";
 import secondProducts from "../assets/images/box2_img.jpg";
 class Products extends Component {
-  state = {
-    currentWidth: window.innerWidth,
-    mobile: true,
-  };
-  componentDidMount = () => {
-    if (this.state.currentWidth >= 1024) {
-      this.setState({
-        mobile: false,
-      });
-    } else if (this.state.currentWidth < 1024) {
-      this.setState({
-        mobile: true,
-      });
-    }
-    window.addEventListener("resize", this.resize);
-  };
-  resize = () => {
-    this.setState({
-      currentWidth: window.innerWidth,
-    });
-    if (this.state.currentWidth < 1024) {
-      this.setState({
-        mobile: true,
-      });
-    } else if (this.state.currentWidth >= 1024) {
-      this.setState({
-        mobile: false,
-      });
-    }
-  };
+  state = {};
   render() {
     return (
       <div className="productsWrap">
@@ -63,9 +34,6 @@ class Products extends Component {
       </div>
     );
   }
-  componentWillUnmount = () => {
-    window.addEventListener("resize", this.resize);
-  };
 }
 
 export default Products;

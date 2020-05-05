@@ -93,7 +93,33 @@ class Slider extends Component {
             </div>
           </div>
         ) : (
-          <div className="desktopSlider"></div>
+          <div className="desktopSlider">
+            <div className="leftArrow">
+              <i className="fas fa-chevron-left" onClick={this.prevImg} />
+            </div>
+            <div className="desktopSliderContent">
+              <div className="chairImgBox">
+                <img
+                  className="chairImg"
+                  src={this.state.slideList[this.state.index].img}
+                  alt="chairImage"
+                />
+              </div>
+              <div className="desktopChairDescription">
+                <h1 className="desktopChairTitle">
+                  sit <span className="changeText">on</span> our
+                  <span className="changeText"> chair</span>
+                </h1>
+                <p className="chairDescription">
+                  {this.state.slideList[this.state.index].text}
+                </p>
+                <button className="showMore">Zobacz więcej</button>
+              </div>
+            </div>
+            <div className="rightArrow " onClick={this.nextImg}>
+              <i className="fas fa-chevron-right" />
+            </div>
+          </div>
         )}
       </div>
     );

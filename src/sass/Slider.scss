@@ -30,11 +30,11 @@
         flex-direction: column;
         .chairImg {
           display: block;
-          width: 120%;
-          margin-top: 4rem;
+          width: 140%;
+          margin-top: 1rem;
         }
         .chairDescription {
-          margin-bottom: 9rem;
+          margin-bottom: 12rem;
           text-align: justify;
         }
       }
@@ -47,6 +47,892 @@
         font-size: 1.51rem;
         color: white;
         border-radius: 1rem;
+      }
+    }
+  }
+}
+
+@media (min-width: 375px) {
+  .sliderWrap {
+    min-width: 375px;
+    height: 100vh;
+    background-color: $sliderColor;
+    margin-bottom: 1rem;
+    .mobileSlider {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .leftArrow,
+      .rightArrow {
+        width: 3rem;
+        height: 3rem;
+        color: $primaryColor;
+        font-size: 2.5rem;
+        font-size: 2.85rem;
+        color: $primaryColor;
+        text-align: center;
+      }
+      .sliderContent {
+        height: 100%;
+        width: calc(100% - 6rem);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        .chairImg {
+          display: block;
+          width: 140%;
+          margin-top: 2rem;
+        }
+        .chairDescription {
+          margin-bottom: 20rem;
+          text-align: justify;
+          padding: 0 1rem;
+        }
+      }
+      .showMore {
+        position: absolute;
+        bottom: 3rem;
+        padding: 1.25rem 4rem;
+        border: none;
+        background-color: $primaryColor;
+        font-size: 1.51rem;
+        color: white;
+        border-radius: 1rem;
+      }
+    }
+  }
+}
+
+@media (min-width: 425px) {
+  .sliderWrap {
+    min-width: 425px;
+    height: 100vh;
+    background-color: $sliderColor;
+    margin-bottom: 1rem;
+    .mobileSlider {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .leftArrow,
+      .rightArrow {
+        width: 3rem;
+        height: 3rem;
+        color: $primaryColor;
+        font-size: 2.5rem;
+        font-size: 2.85rem;
+        color: $primaryColor;
+        text-align: center;
+      }
+      .sliderContent {
+        height: 100%;
+        width: calc(100% - 6rem);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        .chairImg {
+          display: block;
+          width: 160%;
+          margin-top: 0.9rem;
+        }
+        .chairDescription {
+          margin-bottom: 19rem;
+          text-align: justify;
+          padding: 0 1rem;
+        }
+      }
+      .showMore {
+        position: absolute;
+        bottom: 3rem;
+        padding: 1.25rem 4rem;
+        border: none;
+        background-color: $primaryColor;
+        font-size: 1.51rem;
+        color: white;
+        border-radius: 1rem;
+      }
+    }
+  }
+}
+@media (min-width: 460px) {
+  .sliderWrap {
+    min-width: 460px;
+    height: 100vh;
+    background-color: $sliderColor;
+    margin-bottom: 1rem;
+    .mobileSlider {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .leftArrow,
+      .rightArrow {
+        width: 3rem;
+        height: 3rem;
+        color: $primaryColor;
+        font-size: 2.5rem;
+        font-size: 2.85rem;
+        color: $primaryColor;
+        text-align: center;
+      }
+      .sliderContent {
+        height: 100%;
+        width: calc(100% - 6rem);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        .chairImg {
+          display: block;
+          width: 140%;
+          margin-top: 1rem;
+        }
+        .chairDescription {
+          margin-bottom: 22rem;
+          text-align: justify;
+          padding: 0 1rem;
+        }
+      }
+      .showMore {
+        position: absolute;
+        bottom: 3rem;
+        padding: 1.25rem 4rem;
+        border: none;
+        background-color: $primaryColor;
+        font-size: 1.51rem;
+        color: white;
+        border-radius: 1rem;
+      }
+    }
+  }
+}
+@media (min-width: 600px) {
+  .sliderWrap {
+    min-width: 600px;
+    height: 100vh;
+    background-color: $sliderColor;
+    margin-bottom: 1rem;
+    .mobileSlider {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .leftArrow,
+      .rightArrow {
+        width: 3rem;
+        height: 3rem;
+        color: $primaryColor;
+        font-size: 2.5rem;
+        font-size: 2.85rem;
+        color: $primaryColor;
+        text-align: center;
+      }
+      .sliderContent {
+        height: 100%;
+        width: calc(100% - 6rem);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        .chairImg {
+          display: block;
+          width: 100%;
+          margin-top: 1.5rem;
+        }
+        .chairDescription {
+          margin-bottom: 17rem;
+          text-align: justify;
+          padding: 0 1rem;
+        }
+      }
+      .showMore {
+        position: absolute;
+        bottom: 3rem;
+        padding: 1.25rem 4rem;
+        border: none;
+        background-color: $primaryColor;
+        font-size: 1.51rem;
+        color: white;
+        border-radius: 1rem;
+      }
+    }
+  }
+}
+@media (min-width: 768px) {
+  .sliderWrap {
+    min-width: 768px;
+    height: 100vh;
+    background-color: $sliderColor;
+    margin-bottom: 1rem;
+    .mobileSlider {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .leftArrow,
+      .rightArrow {
+        width: 3rem;
+        height: 3rem;
+        color: $primaryColor;
+        font-size: 2.5rem;
+        font-size: 2.85rem;
+        color: $primaryColor;
+        text-align: center;
+      }
+      .sliderContent {
+        height: 100%;
+        width: calc(100% - 6rem);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        .chairImg {
+          display: block;
+          width: 90%;
+          margin-top: 1rem;
+        }
+        .chairDescription {
+          margin-bottom: 17rem;
+          text-align: justify;
+          padding: 0 3rem;
+        }
+      }
+      .showMore {
+        position: absolute;
+        bottom: 2rem;
+        padding: 1.25rem 4rem;
+        border: none;
+        background-color: $primaryColor;
+        font-size: 1.51rem;
+        color: white;
+        border-radius: 1rem;
+      }
+    }
+  }
+}
+@media (min-width: 800px) {
+  .sliderWrap {
+    min-width: 800px;
+    height: 100vh;
+    background-color: $sliderColor;
+    margin-bottom: 1rem;
+    .mobileSlider {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .leftArrow,
+      .rightArrow {
+        width: 3rem;
+        height: 3rem;
+        color: $primaryColor;
+        font-size: 2.5rem;
+        font-size: 2.85rem;
+        color: $primaryColor;
+        text-align: center;
+      }
+      .sliderContent {
+        height: 100%;
+        width: calc(100% - 6rem);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        .chairImg {
+          display: block;
+          width: 87%;
+          margin-top: 1rem;
+        }
+        .chairDescription {
+          margin-bottom: 17rem;
+          text-align: justify;
+          padding: 0 3rem;
+        }
+      }
+      .showMore {
+        position: absolute;
+        bottom: 2rem;
+        padding: 1.25rem 4rem;
+        border: none;
+        background-color: $primaryColor;
+        font-size: 1.51rem;
+        color: white;
+        border-radius: 1rem;
+      }
+    }
+  }
+}
+@media (min-width: 960px) {
+  .sliderWrap {
+    min-width: 860px;
+    height: 100vh;
+    background-color: $sliderColor;
+    margin-bottom: 1rem;
+    .mobileSlider {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .leftArrow,
+      .rightArrow {
+        width: 3rem;
+        height: 3rem;
+        color: $primaryColor;
+        font-size: 2.5rem;
+        font-size: 2.85rem;
+        color: $primaryColor;
+        text-align: center;
+      }
+      .sliderContent {
+        height: 100%;
+        width: calc(100% - 6rem);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        .chairImg {
+          display: block;
+          width: 84%;
+          margin-top: 1rem;
+        }
+        .chairDescription {
+          margin-bottom: 17rem;
+          text-align: justify;
+          padding: 0 3rem;
+        }
+      }
+      .showMore {
+        position: absolute;
+        bottom: 2rem;
+        padding: 1.25rem 4rem;
+        border: none;
+        background-color: $primaryColor;
+        font-size: 1.51rem;
+        color: white;
+        border-radius: 1rem;
+      }
+    }
+  }
+}
+@media (min-width: 1024px) {
+  .sliderWrap {
+    max-width: 900px;
+    height: 30.5rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .desktopSlider {
+      width: 90%;
+      height: 90%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .leftArrow,
+      .rightArrow {
+        color: $primaryColor;
+        font-size: 3rem;
+      }
+      .desktopSliderContent {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .chairImgBox {
+          width: 45%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .chairImg {
+            display: flex;
+            width: 100%;
+          }
+        }
+        .desktopChairDescription {
+          width: 55%;
+          height: 100%;
+          position: relative;
+          text-align: center;
+          .desktopChairTitle {
+            position: absolute;
+            top: 35%;
+            width: 100%;
+            text-transform: uppercase;
+            .changeText {
+              color: $primaryColor;
+            }
+          }
+          .chairDescription {
+            position: absolute;
+            bottom: 8rem;
+          }
+          .showMore {
+            position: absolute;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            bottom: -2rem;
+            border: none;
+            padding: 1.25rem 4rem;
+            background-color: $primaryColor;
+            font-size: 2rem;
+            color: white;
+            border-radius: 2rem;
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 1280px) {
+  .sliderWrap {
+    max-width: 960px;
+    height: 30.5rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .desktopSlider {
+      width: 90%;
+      height: 90%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .leftArrow,
+      .rightArrow {
+        color: $primaryColor;
+        font-size: 3rem;
+      }
+      .desktopSliderContent {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .chairImgBox {
+          width: 45%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .chairImg {
+            display: flex;
+            width: 100%;
+          }
+        }
+        .desktopChairDescription {
+          width: 55%;
+          height: 100%;
+          position: relative;
+          text-align: center;
+          .desktopChairTitle {
+            position: absolute;
+            top: 35%;
+            width: 100%;
+            text-transform: uppercase;
+            .changeText {
+              color: $primaryColor;
+            }
+          }
+          .chairDescription {
+            position: absolute;
+            bottom: 8rem;
+          }
+          .showMore {
+            position: absolute;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            bottom: -3rem;
+            border: none;
+            padding: 1.45rem 4rem;
+            background-color: $primaryColor;
+            font-size: 2rem;
+            color: white;
+            border-radius: 2rem;
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 1366px) {
+  .sliderWrap {
+    max-width: 966px;
+    height: 24.5rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .desktopSlider {
+      width: 90%;
+      height: 90%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .leftArrow,
+      .rightArrow {
+        color: $primaryColor;
+        font-size: 3rem;
+      }
+      .desktopSliderContent {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .chairImgBox {
+          width: 45%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .chairImg {
+            display: flex;
+            width: 100%;
+          }
+        }
+        .desktopChairDescription {
+          width: 55%;
+          height: 100%;
+          position: relative;
+          text-align: center;
+          .desktopChairTitle {
+            position: absolute;
+            top: 35%;
+            width: 100%;
+            text-transform: uppercase;
+            .changeText {
+              color: $primaryColor;
+            }
+          }
+          .chairDescription {
+            position: absolute;
+            bottom: 8rem;
+          }
+          .showMore {
+            position: absolute;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            bottom: -3rem;
+            border: none;
+            padding: 1.45rem 4rem;
+            background-color: $primaryColor;
+            font-size: 2rem;
+            color: white;
+            border-radius: 2rem;
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 1440px) {
+  .sliderWrap {
+    max-width: 1140px;
+    height: 30.5rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .desktopSlider {
+      width: 90%;
+      height: 90%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .leftArrow,
+      .rightArrow {
+        color: $primaryColor;
+        font-size: 3rem;
+      }
+      .desktopSliderContent {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .chairImgBox {
+          width: 45%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .chairImg {
+            display: flex;
+            width: 100%;
+          }
+        }
+        .desktopChairDescription {
+          width: 55%;
+          height: 100%;
+          position: relative;
+          text-align: center;
+          .desktopChairTitle {
+            position: absolute;
+            top: 35%;
+            width: 100%;
+            text-transform: uppercase;
+            .changeText {
+              color: $primaryColor;
+            }
+          }
+          .chairDescription {
+            position: absolute;
+            bottom: 8rem;
+          }
+          .showMore {
+            position: absolute;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            bottom: -3rem;
+            border: none;
+            padding: 1.45rem 4rem;
+            background-color: $primaryColor;
+            font-size: 2rem;
+            color: white;
+            border-radius: 2rem;
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 1600px) {
+  .sliderWrap {
+    max-width: 1300px;
+    height: 30.5rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .desktopSlider {
+      width: 90%;
+      height: 90%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .leftArrow,
+      .rightArrow {
+        color: $primaryColor;
+        font-size: 3rem;
+      }
+      .desktopSliderContent {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .chairImgBox {
+          width: 45%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .chairImg {
+            display: flex;
+            width: 100%;
+          }
+        }
+        .desktopChairDescription {
+          width: 55%;
+          height: 100%;
+          position: relative;
+          text-align: center;
+          .desktopChairTitle {
+            position: absolute;
+            top: 30%;
+            width: 100%;
+            text-transform: uppercase;
+            font-size: 3rem;
+            .changeText {
+              color: $primaryColor;
+            }
+          }
+          .chairDescription {
+            position: absolute;
+            bottom: 8rem;
+            padding: 0 2rem;
+            font-size: 1.25rem;
+          }
+          .showMore {
+            position: absolute;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            bottom: -3rem;
+            border: none;
+            padding: 1.45rem 4rem;
+            background-color: $primaryColor;
+            font-size: 2rem;
+            color: white;
+            border-radius: 2rem;
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 1920px) {
+  .sliderWrap {
+    max-width: 1620px;
+    height: 30.5rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .desktopSlider {
+      width: 90%;
+      height: 90%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .leftArrow,
+      .rightArrow {
+        color: $primaryColor;
+        font-size: 3rem;
+      }
+      .desktopSliderContent {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .chairImgBox {
+          width: 45%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .chairImg {
+            display: flex;
+            width: 100%;
+          }
+        }
+        .desktopChairDescription {
+          width: 55%;
+          height: 100%;
+          position: relative;
+          text-align: center;
+          .desktopChairTitle {
+            position: absolute;
+            top: 25%;
+            width: 100%;
+            text-transform: uppercase;
+            font-size: 3rem;
+            .changeText {
+              color: $primaryColor;
+            }
+          }
+          .chairDescription {
+            position: absolute;
+            bottom: 10rem;
+            padding: 0 2rem;
+            font-size: 1.25rem;
+          }
+          .showMore {
+            position: absolute;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            bottom: -3rem;
+            border: none;
+            padding: 1.45rem 4rem;
+            background-color: $primaryColor;
+            font-size: 2rem;
+            color: white;
+            border-radius: 2rem;
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 2560px) {
+  .sliderWrap {
+    max-width: 1920px;
+    height: 30.5rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .desktopSlider {
+      width: 90%;
+      height: 90%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .leftArrow,
+      .rightArrow {
+        color: $primaryColor;
+        font-size: 3rem;
+      }
+      .desktopSliderContent {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .chairImgBox {
+          width: 45%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .chairImg {
+            display: flex;
+            width: 100%;
+          }
+        }
+        .desktopChairDescription {
+          width: 55%;
+          height: 100%;
+          position: relative;
+          text-align: center;
+          .desktopChairTitle {
+            position: absolute;
+            top: 25%;
+            width: 100%;
+            text-transform: uppercase;
+            font-size: 3rem;
+            .changeText {
+              color: $primaryColor;
+            }
+          }
+          .chairDescription {
+            position: absolute;
+            bottom: 10rem;
+            padding: 0 2rem;
+            font-size: 1.25rem;
+          }
+          .showMore {
+            position: absolute;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            bottom: -3rem;
+            border: none;
+            padding: 1.45rem 4rem;
+            background-color: $primaryColor;
+            font-size: 2rem;
+            color: white;
+            border-radius: 2rem;
+          }
+        }
       }
     }
   }

@@ -1,5 +1,5 @@
 @media (min-width: 320px) {
-  .contactWrap {
+  .mobileContactWrap {
     min-width: 320px;
     height: 35rem;
     .contactHeader {
@@ -13,7 +13,7 @@
         padding-left: 0.85rem;
       }
       .underlineLine {
-        @include underlineLine(0.85rem, 3.2rem, 66%);
+        @include underlineLine(0.85rem, 3.2rem, 54%);
       }
     }
     .formBox {
@@ -68,6 +68,1269 @@
         font-size: 1.85rem;
         margin: 0 1rem;
         margin-top: 1.55rem;
+      }
+    }
+    .confirmForm {
+      width: 100%;
+      height: 2rem;
+      bottom: -2rem;
+      line-height: 2rem;
+      text-align: center;
+      .contactMessage {
+        color: green;
+        font-size: 1.45rem;
+      }
+    }
+    .formErr {
+      width: 100%;
+      height: 2rem;
+      bottom: -2rem;
+      line-height: 2rem;
+      text-align: center;
+      .errContactMessage {
+        color: red;
+        font-size: 1.45rem;
+      }
+    }
+  }
+}
+@media (min-width: 375px) {
+  .mobileContactWrap {
+    min-width: 375px;
+    height: 35rem;
+    .contactHeader {
+      width: 100%;
+      height: 4rem;
+      line-height: 4rem;
+      position: relative;
+      .contactHeaderText {
+        text-transform: uppercase;
+        font-weight: bold;
+        padding-left: 0.85rem;
+      }
+      .underlineLine {
+        @include underlineLine(0.85rem, 3.2rem, 36%);
+      }
+    }
+    .formBox {
+      width: 100%;
+      height: 29rem;
+      position: relative;
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+      flex-wrap: wrap;
+      padding: 0 1rem;
+      input {
+        width: 100%;
+        height: 3.11rem;
+        border: 1px solid $primaryColor;
+        line-height: 3.11rem;
+        &::placeholder {
+          font-size: 1.45rem;
+        }
+      }
+      textarea {
+        height: 7.13rem;
+        width: 100%;
+        border: 1px solid $primaryColor;
+        line-height: 3.11rem;
+        &::placeholder {
+          font-size: 2.15rem;
+        }
+      }
+      .checkbox {
+        height: 3rem;
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        padding: 0 1rem;
+        .tickBox {
+          width: 3.25rem;
+          height: 3.25rem;
+          border: 1px solid $primaryColor;
+        }
+        .agreeText {
+          padding-left: 1rem;
+        }
+      }
+      .send {
+        padding: 1rem 2rem;
+        background-color: $primaryColor;
+        color: white;
+        text-transform: uppercase;
+        border: none;
+        font-size: 1.85rem;
+        margin: 0 1rem;
+        margin-top: 1.55rem;
+      }
+    }
+    .confirmForm {
+      width: 100%;
+      height: 2rem;
+      bottom: -2rem;
+      line-height: 2rem;
+      text-align: center;
+      .contactMessage {
+        color: green;
+        font-size: 1.45rem;
+      }
+    }
+    .formErr {
+      width: 100%;
+      height: 2rem;
+      bottom: -2rem;
+      line-height: 2rem;
+      text-align: center;
+      .errContactMessage {
+        color: red;
+        font-size: 1.45rem;
+      }
+    }
+  }
+}
+@media (min-width: 425px) {
+  .mobileContactWrap {
+    min-width: 425px;
+    height: 35rem;
+    .contactHeader {
+      width: 100%;
+      height: 4rem;
+      line-height: 4rem;
+      position: relative;
+      .contactHeaderText {
+        text-transform: uppercase;
+        font-weight: bold;
+        padding-left: 0.85rem;
+      }
+      .underlineLine {
+        @include underlineLine(0.85rem, 3.2rem, 36%);
+      }
+    }
+    .formBox {
+      width: 100%;
+      height: 29rem;
+      position: relative;
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+      flex-wrap: wrap;
+      padding: 0 1rem;
+      input {
+        width: 100%;
+        height: 3.11rem;
+        border: 1px solid $primaryColor;
+        line-height: 3.11rem;
+        &::placeholder {
+          font-size: 1.45rem;
+        }
+      }
+      textarea {
+        height: 7.13rem;
+        width: 100%;
+        border: 1px solid $primaryColor;
+        line-height: 3.11rem;
+        &::placeholder {
+          font-size: 2.15rem;
+        }
+      }
+      .checkbox {
+        height: 3rem;
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        padding: 0 1rem;
+        .tickBox {
+          width: 3.25rem;
+          height: 3.25rem;
+          border: 1px solid $primaryColor;
+        }
+        .agreeText {
+          padding-left: 1rem;
+        }
+      }
+      .send {
+        padding: 1rem 2rem;
+        background-color: $primaryColor;
+        color: white;
+        text-transform: uppercase;
+        border: none;
+        font-size: 1.85rem;
+        margin: 0 1rem;
+        margin-top: 1.55rem;
+      }
+    }
+  }
+}
+@media (min-width: 460px) {
+  .mobileContactWrap {
+    min-width: 460px;
+    height: 35rem;
+    .contactHeader {
+      width: 100%;
+      height: 4rem;
+      line-height: 4rem;
+      position: relative;
+      .contactHeaderText {
+        text-transform: uppercase;
+        font-weight: bold;
+        padding-left: 0.85rem;
+      }
+      .underlineLine {
+        @include underlineLine(0.85rem, 3.2rem, 36%);
+      }
+    }
+    .formBox {
+      width: 100%;
+      height: 29rem;
+      position: relative;
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+      flex-wrap: wrap;
+      padding: 0 1rem;
+      input {
+        width: 100%;
+        height: 3.11rem;
+        border: 1px solid $primaryColor;
+        line-height: 3.11rem;
+        &::placeholder {
+          font-size: 1.45rem;
+        }
+      }
+      textarea {
+        height: 7.13rem;
+        width: 100%;
+        border: 1px solid $primaryColor;
+        line-height: 3.11rem;
+        &::placeholder {
+          font-size: 2.15rem;
+        }
+      }
+      .checkbox {
+        height: 3rem;
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        padding: 0 1rem;
+        .tickBox {
+          width: 3.25rem;
+          height: 3.25rem;
+          border: 1px solid $primaryColor;
+        }
+        .agreeText {
+          padding-left: 1rem;
+        }
+      }
+      .send {
+        padding: 1rem 2rem;
+        background-color: $primaryColor;
+        color: white;
+        text-transform: uppercase;
+        border: none;
+        font-size: 1.85rem;
+        margin: 0 1rem;
+        margin-top: 1.55rem;
+      }
+    }
+    .confirmForm {
+      width: 100%;
+      height: 2rem;
+      bottom: -2rem;
+      line-height: 2rem;
+      text-align: center;
+      .contactMessage {
+        color: green;
+        font-size: 1.45rem;
+      }
+    }
+    .formErr {
+      width: 100%;
+      height: 2rem;
+      bottom: -2rem;
+      line-height: 2rem;
+      text-align: center;
+      .errContactMessage {
+        color: red;
+        font-size: 1.45rem;
+      }
+    }
+  }
+}
+@media (min-width: 600px) {
+  .mobileContactWrap {
+    min-width: 600px;
+    height: 35rem;
+    .contactHeader {
+      width: 100%;
+      height: 4rem;
+      line-height: 4rem;
+      position: relative;
+      .contactHeaderText {
+        text-transform: uppercase;
+        font-weight: bold;
+        padding-left: 0.85rem;
+      }
+      .underlineLine {
+        @include underlineLine(0.85rem, 3.2rem, 36%);
+      }
+    }
+    .formBox {
+      width: 100%;
+      height: 29rem;
+      position: relative;
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+      flex-wrap: wrap;
+      padding: 0 1rem;
+      input {
+        width: 100%;
+        height: 3.11rem;
+        border: 1px solid $primaryColor;
+        line-height: 3.11rem;
+        &::placeholder {
+          font-size: 1.45rem;
+        }
+      }
+      textarea {
+        height: 7.13rem;
+        width: 100%;
+        border: 1px solid $primaryColor;
+        line-height: 3.11rem;
+        &::placeholder {
+          font-size: 2.15rem;
+        }
+      }
+      .checkbox {
+        height: 3rem;
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        padding: 0 1rem;
+        .tickBox {
+          width: 3.25rem;
+          height: 3.25rem;
+          border: 1px solid $primaryColor;
+        }
+        .agreeText {
+          padding-left: 1rem;
+          line-height: 3rem;
+        }
+      }
+      .send {
+        padding: 1rem 2rem;
+        background-color: $primaryColor;
+        color: white;
+        text-transform: uppercase;
+        border: none;
+        font-size: 1.85rem;
+        margin: 0 1rem;
+        margin-top: 1.55rem;
+      }
+    }
+  }
+}
+@media (min-width: 768px) {
+  .mobileContactWrap {
+    max-width: 600px;
+    height: 35rem;
+    margin: auto;
+    .contactHeader {
+      width: 100%;
+      height: 4rem;
+      line-height: 4rem;
+      position: relative;
+      .contactHeaderText {
+        text-transform: uppercase;
+        font-weight: bold;
+        padding-left: 0.85rem;
+      }
+      .underlineLine {
+        @include underlineLine(0.85rem, 3.2rem, 36%);
+      }
+    }
+    .formBox {
+      width: 100%;
+      height: 29rem;
+      position: relative;
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+      flex-wrap: wrap;
+      padding: 0 1rem;
+      input {
+        width: 100%;
+        height: 3.11rem;
+        border: 1px solid $primaryColor;
+        line-height: 3.11rem;
+        &::placeholder {
+          font-size: 1.45rem;
+        }
+      }
+      textarea {
+        height: 7.13rem;
+        width: 100%;
+        border: 1px solid $primaryColor;
+        line-height: 3.11rem;
+        &::placeholder {
+          font-size: 2.15rem;
+        }
+      }
+      .checkbox {
+        height: 3rem;
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        padding: 0 1rem;
+        .tickBox {
+          width: 3.25rem;
+          height: 3.25rem;
+          border: 1px solid $primaryColor;
+
+          .checkboxImg {
+            display: block;
+            height: 100%;
+            width: 100%;
+          }
+        }
+        .agreeText {
+          padding-left: 1rem;
+          line-height: 3rem;
+        }
+      }
+      .send {
+        padding: 1rem 2rem;
+        background-color: $primaryColor;
+        color: white;
+        text-transform: uppercase;
+        border: none;
+        font-size: 1.85rem;
+        margin: 0 1rem;
+        margin-top: 1.55rem;
+      }
+    }
+    .confirmForm {
+      width: 100%;
+      height: 2rem;
+      bottom: -2rem;
+      line-height: 2rem;
+      text-align: center;
+      .contactMessage {
+        color: green;
+        font-size: 1.45rem;
+      }
+    }
+    .formErr {
+      width: 100%;
+      height: 2rem;
+      bottom: -2rem;
+      line-height: 2rem;
+      text-align: center;
+      .errContactMessage {
+        color: red;
+        font-size: 1.45rem;
+      }
+    }
+  }
+}
+@media (min-width: 1024px) {
+  .desktopContactWrap {
+    max-width: 900px;
+    height: 33rem;
+    margin: auto;
+    .contactHeader {
+      height: 4rem;
+      width: 100%;
+      position: relative;
+      .contactHeaderText {
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 4rem;
+        padding-left: 0.85rem;
+      }
+      .underlineLine {
+        @include underlineLine(0.85rem, 3.2rem, 26%);
+      }
+    }
+    .contactContent {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: calc(100% - 4rem);
+      width: 100%;
+      .leftSide {
+        height: 100%;
+        width: 60%;
+        .contactForm {
+          height: 100%;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: flex-start;
+          padding-left: 1rem;
+          input {
+            width: 70%;
+            height: 3.45rem;
+            font-size: 2rem;
+            border: 1px solid $primaryColor;
+            &::placeholder {
+              color: $primaryColor;
+            }
+          }
+          textarea {
+            width: 70%;
+            height: 6rem;
+            border: 1px solid $primaryColor;
+            font-size: 1.25rem;
+            &::placeholder {
+              color: $primaryColor;
+              font-size: 2rem;
+              font-weight: bold;
+            }
+          }
+          .send {
+            width: 15rem;
+            height: 5rem;
+            border: none;
+            background-color: $primaryColor;
+            font-size: 2.1rem;
+            text-transform: uppercase;
+            color: white;
+            margin-left: calc(50% - 15rem);
+          }
+        }
+      }
+      .rightSide {
+        height: 100%;
+        width: 40%;
+        position: relative;
+        .redChairBox {
+          position: absolute;
+          transform: translate(-50%, -50%);
+          top: 6rem;
+          left: 50%;
+          .redChairImg {
+            display: block;
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .checkbox {
+          position: absolute;
+          bottom: 13rem;
+          .tickBox {
+            width: 3.5rem;
+            height: 3.5rem;
+            border: 1px solid $primaryColor;
+            position: absolute;
+            bottom: -0.55rem;
+            right: 25rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          .confirmForm {
+            width: 20rem;
+            height: 10rem;
+            position: absolute;
+            bottom: -20rem;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            .contactMessage {
+              color: green;
+              font-size: 1.45rem;
+            }
+          }
+          .formErr {
+            width: 20rem;
+            height: 10rem;
+            position: absolute;
+            bottom: -20rem;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            .errContactMessage {
+              color: red;
+              font-size: 1.45rem;
+            }
+          }
+        }
+        .send {
+          padding: 2rem 4rem;
+          border: none;
+          background-color: $primaryColor;
+          font-size: 3rem;
+          color: white;
+          position: absolute;
+          bottom: -11rem;
+          left: -2rem;
+          border-radius: 2rem;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 1280px) {
+  .desktopContactWrap {
+    max-width: 960px;
+    height: 33rem;
+    margin: auto;
+    .contactHeader {
+      height: 4rem;
+      width: 100%;
+      position: relative;
+      .contactHeaderText {
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 4rem;
+        padding-left: 0.85rem;
+      }
+      .underlineLine {
+        @include underlineLine(0.85rem, 3.2rem, 26%);
+      }
+    }
+    .contactContent {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: calc(100% - 4rem);
+      width: 100%;
+      .leftSide {
+        height: 100%;
+        width: 60%;
+        .contactForm {
+          height: 100%;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: flex-start;
+          padding-left: 1rem;
+          input {
+            width: 70%;
+            height: 3.45rem;
+            font-size: 2rem;
+            border: 1px solid $primaryColor;
+            &::placeholder {
+              color: $primaryColor;
+            }
+          }
+          textarea {
+            width: 70%;
+            height: 6rem;
+            border: 1px solid $primaryColor;
+            font-size: 1.25rem;
+            &::placeholder {
+              color: $primaryColor;
+              font-size: 2rem;
+              font-weight: bold;
+            }
+          }
+          .send {
+            width: 15rem;
+            height: 5rem;
+            border: none;
+            background-color: $primaryColor;
+            font-size: 2.1rem;
+            text-transform: uppercase;
+            color: white;
+            margin-left: calc(50% - 15rem);
+            margin-top: 1rem;
+          }
+        }
+      }
+      .rightSide {
+        height: 100%;
+        width: 40%;
+        position: relative;
+        .redChairBox {
+          position: absolute;
+          transform: translate(-50%, -50%);
+          top: 6rem;
+          left: 50%;
+          .redChairImg {
+            display: block;
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .checkbox {
+          position: absolute;
+          bottom: 13rem;
+          .tickBox {
+            width: 3.5rem;
+            height: 3.5rem;
+            border: 1px solid $primaryColor;
+            position: absolute;
+            bottom: -0.55rem;
+            right: 25rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          .confirmForm {
+            width: 20rem;
+            height: 10rem;
+            position: absolute;
+            bottom: -20rem;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            .contactMessage {
+              color: green;
+              font-size: 1.45rem;
+            }
+          }
+          .formErr {
+            width: 20rem;
+            height: 10rem;
+            position: absolute;
+            bottom: -20rem;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            .errContactMessage {
+              color: red;
+              font-size: 1.45rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1440px) {
+  .desktopContactWrap {
+    max-width: 1140px;
+    height: 33rem;
+    margin: auto;
+    .contactHeader {
+      height: 4rem;
+      width: 100%;
+      position: relative;
+      .contactHeaderText {
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 4rem;
+        padding-left: 0.85rem;
+      }
+      .underlineLine {
+        @include underlineLine(0.85rem, 3.2rem, 26%);
+      }
+    }
+    .contactContent {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      height: calc(100% - 4rem);
+      width: 100%;
+      .leftSide {
+        height: 100%;
+        width: 60%;
+        .contactForm {
+          height: 100%;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: flex-start;
+          padding-left: 1rem;
+          input {
+            width: 70%;
+            height: 3.45rem;
+            font-size: 2rem;
+            border: 1px solid $primaryColor;
+            &::placeholder {
+              color: $primaryColor;
+            }
+          }
+          textarea {
+            width: 70%;
+            height: 6rem;
+            border: 1px solid $primaryColor;
+            font-size: 1.25rem;
+            &::placeholder {
+              color: $primaryColor;
+              font-size: 2rem;
+              font-weight: bold;
+            }
+          }
+          .send {
+            width: 15rem;
+            height: 5rem;
+            border: none;
+            background-color: $primaryColor;
+            font-size: 2.1rem;
+            text-transform: uppercase;
+            color: white;
+            margin-left: calc(50% - 15rem);
+            margin-top: 1rem;
+          }
+        }
+      }
+      .rightSide {
+        height: 100%;
+        width: 40%;
+        position: relative;
+        .redChairBox {
+          position: absolute;
+          transform: translate(-50%, -50%);
+          top: 6rem;
+          left: 50%;
+          .redChairImg {
+            display: block;
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .checkbox {
+          position: absolute;
+          bottom: 13rem;
+          .tickBox {
+            width: 3.5rem;
+            height: 3.5rem;
+            border: 1px solid $primaryColor;
+            position: absolute;
+            bottom: -0.55rem;
+            right: 27rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          .agreeText {
+            padding: 0 2rem;
+          }
+          .confirmForm {
+            width: 20rem;
+            height: 10rem;
+            position: absolute;
+            bottom: -20rem;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            .contactMessage {
+              color: green;
+              font-size: 1.45rem;
+            }
+          }
+          .formErr {
+            width: 20rem;
+            height: 10rem;
+            position: absolute;
+            bottom: -20rem;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            .errContactMessage {
+              color: red;
+              font-size: 1.45rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 1600px) {
+  .desktopContactWrap {
+    max-width: 1300px;
+    height: 33rem;
+    margin: auto;
+    .contactHeader {
+      height: 4rem;
+      width: 100%;
+      position: relative;
+      .contactHeaderText {
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 4rem;
+        padding-left: 0.85rem;
+      }
+      .underlineLine {
+        @include underlineLine(0.85rem, 3.2rem, 26%);
+      }
+    }
+    .contactContent {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      height: calc(100% - 4rem);
+      width: 100%;
+      .leftSide {
+        height: 100%;
+        width: 60%;
+        .contactForm {
+          height: 100%;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: flex-start;
+          padding-left: 1rem;
+          input {
+            width: 70%;
+            height: 3.45rem;
+            font-size: 2rem;
+            border: 1px solid $primaryColor;
+            &::placeholder {
+              color: $primaryColor;
+            }
+          }
+          textarea {
+            width: 70%;
+            height: 6rem;
+            border: 1px solid $primaryColor;
+            font-size: 1.25rem;
+            &::placeholder {
+              color: $primaryColor;
+              font-size: 2rem;
+              font-weight: bold;
+            }
+          }
+          .send {
+            width: 15rem;
+            height: 5rem;
+            border: none;
+            background-color: $primaryColor;
+            font-size: 2.1rem;
+            text-transform: uppercase;
+            color: white;
+            margin-left: calc(50% - 15rem);
+            margin-top: 1rem;
+          }
+        }
+      }
+      .rightSide {
+        height: 100%;
+        width: 40%;
+        position: relative;
+        .redChairBox {
+          position: absolute;
+          transform: translate(-50%, -50%);
+          top: 6rem;
+          left: 50%;
+          .redChairImg {
+            display: block;
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .checkbox {
+          position: absolute;
+          bottom: 13rem;
+          .tickBox {
+            width: 3.5rem;
+            height: 3.5rem;
+            border: 1px solid $primaryColor;
+            position: absolute;
+            bottom: -0.55rem;
+            right: 29rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          .agreeText {
+            padding: 0 4rem;
+          }
+          .confirmForm {
+            width: 20rem;
+            height: 10rem;
+            position: absolute;
+            bottom: -20rem;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            .contactMessage {
+              color: green;
+              font-size: 1.45rem;
+            }
+          }
+          .formErr {
+            width: 20rem;
+            height: 10rem;
+            position: absolute;
+            bottom: -20rem;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            .errContactMessage {
+              color: red;
+              font-size: 1.45rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 1920px) {
+  .desktopContactWrap {
+    max-width: 1620px;
+    height: 33rem;
+    margin: auto;
+    .contactHeader {
+      height: 4rem;
+      width: 100%;
+      position: relative;
+      .contactHeaderText {
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 4rem;
+        padding-left: 0.85rem;
+      }
+      .underlineLine {
+        @include underlineLine(0.85rem, 3.2rem, 26%);
+      }
+    }
+    .contactContent {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      height: calc(100% - 4rem);
+      width: 100%;
+      .leftSide {
+        height: 100%;
+        width: 60%;
+        .contactForm {
+          height: 100%;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: flex-start;
+          padding-left: 1rem;
+          input {
+            width: 70%;
+            height: 3.45rem;
+            font-size: 2rem;
+            border: 1px solid $primaryColor;
+            &::placeholder {
+              color: $primaryColor;
+            }
+          }
+          textarea {
+            width: 70%;
+            height: 6rem;
+            border: 1px solid $primaryColor;
+            font-size: 1.25rem;
+            &::placeholder {
+              color: $primaryColor;
+              font-size: 2rem;
+              font-weight: bold;
+            }
+          }
+          .send {
+            width: 15rem;
+            height: 5rem;
+            border: none;
+            background-color: $primaryColor;
+            font-size: 2.1rem;
+            text-transform: uppercase;
+            color: white;
+            margin-left: calc(50% - 15rem);
+            margin-top: 1rem;
+          }
+        }
+      }
+      .rightSide {
+        height: 100%;
+        width: 40%;
+        position: relative;
+        .redChairBox {
+          position: absolute;
+          transform: translate(-50%, -50%);
+          top: 6rem;
+          left: 50%;
+          .redChairImg {
+            display: block;
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .checkbox {
+          position: absolute;
+          bottom: 13rem;
+          text-align: center;
+          .tickBox {
+            width: 5.5rem;
+            height: 5.5rem;
+            border: 1px solid $primaryColor;
+            position: absolute;
+            bottom: -0.55rem;
+            right: 33rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          .agreeText {
+            padding: 0 6rem;
+            margin-top: 1rem;
+            font-size: 1.25rem;
+          }
+          .confirmForm {
+            width: 20rem;
+            height: 10rem;
+            position: absolute;
+            bottom: -20rem;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            .contactMessage {
+              color: green;
+              font-size: 1.45rem;
+            }
+          }
+          .formErr {
+            width: 20rem;
+            height: 10rem;
+            position: absolute;
+            bottom: -20rem;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            .errContactMessage {
+              color: red;
+              font-size: 1.45rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 2560px) {
+  .desktopContactWrap {
+    max-width: 1920px;
+    height: 33rem;
+    margin: auto;
+    .contactHeader {
+      height: 4rem;
+      width: 100%;
+      position: relative;
+      .contactHeaderText {
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 4rem;
+        padding-left: 0.85rem;
+      }
+      .underlineLine {
+        @include underlineLine(0.85rem, 3.2rem, 26%);
+      }
+    }
+    .contactContent {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      height: calc(100% - 4rem);
+      width: 100%;
+      .leftSide {
+        height: 100%;
+        width: 60%;
+        .contactForm {
+          height: 100%;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: flex-start;
+          padding-left: 1rem;
+          input {
+            width: 70%;
+            height: 3.45rem;
+            font-size: 2rem;
+            border: 1px solid $primaryColor;
+            &::placeholder {
+              color: $primaryColor;
+            }
+          }
+          textarea {
+            width: 70%;
+            height: 6rem;
+            border: 1px solid $primaryColor;
+            font-size: 1.25rem;
+            &::placeholder {
+              color: $primaryColor;
+              font-size: 2rem;
+              font-weight: bold;
+            }
+          }
+          .send {
+            width: 15rem;
+            height: 5rem;
+            border: none;
+            background-color: $primaryColor;
+            font-size: 2.1rem;
+            text-transform: uppercase;
+            color: white;
+            margin-left: calc(50% - 15rem);
+            margin-top: 1rem;
+          }
+        }
+      }
+      .rightSide {
+        height: 100%;
+        width: 40%;
+        position: relative;
+        .redChairBox {
+          position: absolute;
+          transform: translate(-50%, -50%);
+          top: 6rem;
+          left: 50%;
+          .redChairImg {
+            display: block;
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .checkbox {
+          position: absolute;
+          bottom: 13rem;
+          text-align: center;
+          .tickBox {
+            width: 5.5rem;
+            height: 5.5rem;
+            border: 1px solid $primaryColor;
+            position: absolute;
+            bottom: -0.55rem;
+            right: 36rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          .agreeText {
+            padding: 0 12rem;
+            margin-top: 1rem;
+            font-size: 1.25rem;
+          }
+          .confirmForm {
+            width: 20rem;
+            height: 10rem;
+            position: absolute;
+            bottom: -20rem;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            .contactMessage {
+              color: green;
+              font-size: 1.45rem;
+            }
+          }
+          .formErr {
+            width: 20rem;
+            height: 10rem;
+            position: absolute;
+            bottom: -20rem;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            .errContactMessage {
+              color: red;
+              font-size: 1.45rem;
+            }
+          }
+        }
       }
     }
   }

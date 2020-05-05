@@ -15,7 +15,7 @@
         padding-left: 0.85rem;
       }
       .underlineLine {
-        @include underlineLine(0.85rem, 3.2rem, 46%);
+        @include underlineLine(0.85rem, 3.2rem, 40%);
       }
     }
     .priceBox {
@@ -47,6 +47,820 @@
       .box-3 {
         position: relative;
         width: 100%;
+        height: 40rem;
+        border: 1px solid gray;
+        @include priceBox(4);
+        @include priceTouch;
+      }
+    }
+  }
+}
+@media (min-width: 375px) {
+  .priceWrap {
+    min-width: 375px;
+    height: 133rem;
+    background-color: $priceColor;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    .priceHeader {
+      position: relative;
+      width: 100%;
+      height: 4rem;
+      .priceHeaderText {
+        font-weight: bold;
+        line-height: 4rem;
+        padding-left: 0.85rem;
+      }
+      .underlineLine {
+        @include underlineLine(0.85rem, 3.2rem, 36%);
+      }
+    }
+    .priceBox {
+      width: 100%;
+      height: 130rem;
+      padding: 0 0.5rem;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      flex-direction: column;
+      .box-1 {
+        margin-top: 2rem;
+        position: relative;
+        width: 100%;
+        height: 40rem;
+        border: 1px solid gray;
+        @include priceBox(2);
+        @include priceTouch;
+      }
+      .box-2 {
+        position: relative;
+        width: 100%;
+        height: 40rem;
+        border: 1px solid gray;
+        @include priceBox(3);
+        @include priceTouch;
+      }
+      .box-3 {
+        position: relative;
+        width: 100%;
+        height: 40rem;
+        border: 1px solid gray;
+        @include priceBox(4);
+        @include priceTouch;
+      }
+    }
+  }
+}
+@media (min-width: 425px) {
+  .priceWrap {
+    min-width: 425px;
+    height: 133rem;
+    background-color: $priceColor;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    .priceHeader {
+      position: relative;
+      width: 100%;
+      height: 4rem;
+      .priceHeaderText {
+        font-weight: bold;
+        line-height: 4rem;
+        padding-left: 0.85rem;
+      }
+      .underlineLine {
+        @include underlineLine(0.85rem, 3.2rem, 36%);
+      }
+    }
+    .priceBox {
+      width: 100%;
+      height: 130rem;
+      padding: 0 0.5rem;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      flex-direction: column;
+      .box-1 {
+        margin-top: 2rem;
+        position: relative;
+        width: 100%;
+        height: 40rem;
+        border: 1px solid gray;
+        @include priceBox(2);
+        @include priceTouch;
+      }
+      .box-2 {
+        position: relative;
+        width: 100%;
+        height: 40rem;
+        border: 1px solid gray;
+        @include priceBox(3);
+        @include priceTouch;
+      }
+      .box-3 {
+        position: relative;
+        width: 100%;
+        height: 40rem;
+        border: 1px solid gray;
+        @include priceBox(4);
+        @include priceTouch;
+      }
+    }
+  }
+}
+@media (min-width: 460px) {
+  .priceWrap {
+    min-width: 460px;
+    height: 133rem;
+    background-color: $priceColor;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    .priceHeader {
+      position: relative;
+      width: 100%;
+      height: 4rem;
+      .priceHeaderText {
+        font-weight: bold;
+        line-height: 4rem;
+        padding-left: 0.85rem;
+      }
+      .underlineLine {
+        @include underlineLine(0.85rem, 3.2rem, 36%);
+      }
+    }
+    .priceBox {
+      width: 100%;
+      height: 130rem;
+      padding: 0 0.5rem;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      flex-direction: column;
+      .box-1 {
+        margin-top: 2rem;
+        position: relative;
+        max-width: 460px;
+        height: 40rem;
+        border: 1px solid gray;
+        @include priceBox(2);
+        @include priceTouch;
+      }
+      .box-2 {
+        position: relative;
+        max-width: 460px;
+        height: 40rem;
+        border: 1px solid gray;
+        @include priceBox(3);
+        @include priceTouch;
+      }
+      .box-3 {
+        position: relative;
+        max-width: 460px;
+        height: 40rem;
+        border: 1px solid gray;
+        @include priceBox(4);
+        @include priceTouch;
+      }
+    }
+  }
+}
+@media (min-width: 600px) {
+  .priceWrap {
+    min-width: 600px;
+    height: 133rem;
+    background-color: $priceColor;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    .priceHeader {
+      position: relative;
+      width: 100%;
+      height: 4rem;
+      .priceHeaderText {
+        font-weight: bold;
+        line-height: 4rem;
+        padding-left: 0.85rem;
+      }
+      .underlineLine {
+        @include underlineLine(0.85rem, 3.2rem, 36%);
+      }
+    }
+    .priceBox {
+      width: 100%;
+      height: 130rem;
+      padding: 0 0.5rem;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      flex-direction: column;
+      .box-1 {
+        margin-top: 2rem;
+        position: relative;
+        max-width: 460px;
+        height: 40rem;
+        border: 1px solid gray;
+        @include priceBox(2);
+        @include priceTouch;
+      }
+      .box-2 {
+        position: relative;
+        max-width: 460px;
+        height: 40rem;
+        border: 1px solid gray;
+        @include priceBox(3);
+        @include priceTouch;
+      }
+      .box-3 {
+        position: relative;
+        max-width: 460px;
+        height: 40rem;
+        border: 1px solid gray;
+        @include priceBox(4);
+        @include priceTouch;
+      }
+    }
+  }
+}
+@media (min-width: 768px) {
+  .priceWrap {
+    min-width: 768px;
+    height: 133rem;
+    background-color: $priceColor;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    .priceHeader {
+      position: relative;
+      width: 100%;
+      height: 4rem;
+      .priceHeaderText {
+        font-weight: bold;
+        line-height: 4rem;
+        padding-left: 0.85rem;
+      }
+      .underlineLine {
+        @include underlineLine(0.85rem, 3.2rem, 26%);
+      }
+    }
+    .priceBox {
+      width: 100%;
+      height: 130rem;
+      padding: 0 0.5rem;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      flex-direction: column;
+      .box-1 {
+        margin-top: 2rem;
+        position: relative;
+        max-width: 460px;
+        height: 40rem;
+        border: 1px solid gray;
+        @include priceBox(2);
+        @include priceTouch;
+      }
+      .box-2 {
+        position: relative;
+        max-width: 460px;
+        height: 40rem;
+        border: 1px solid gray;
+        @include priceBox(3);
+        @include priceTouch;
+      }
+      .box-3 {
+        position: relative;
+        max-width: 460px;
+        height: 40rem;
+        border: 1px solid gray;
+        @include priceBox(4);
+        @include priceTouch;
+      }
+    }
+  }
+}
+@media (min-width: 800px) {
+  .priceWrap {
+    min-width: 800px;
+    height: 133rem;
+    background-color: $priceColor;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    .priceHeader {
+      position: relative;
+      width: 100%;
+      height: 4rem;
+      .priceHeaderText {
+        font-weight: bold;
+        line-height: 4rem;
+        padding-left: 0.85rem;
+      }
+      .underlineLine {
+        @include underlineLine(0.85rem, 3.2rem, 26%);
+      }
+    }
+    .priceBox {
+      width: 100%;
+      height: 130rem;
+      padding: 0 0.5rem;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      flex-direction: column;
+      .box-1 {
+        margin-top: 2rem;
+        position: relative;
+        max-width: 460px;
+        height: 40rem;
+        border: 1px solid gray;
+        @include priceBox(2);
+        @include priceTouch;
+      }
+      .box-2 {
+        position: relative;
+        max-width: 460px;
+        height: 40rem;
+        border: 1px solid gray;
+        @include priceBox(3);
+        @include priceTouch;
+      }
+      .box-3 {
+        position: relative;
+        max-width: 460px;
+        height: 40rem;
+        border: 1px solid gray;
+        @include priceBox(4);
+        @include priceTouch;
+      }
+    }
+  }
+}
+@media (min-width: 960px) {
+  .priceWrap {
+    min-width: 960px;
+    height: 133rem;
+    background-color: $priceColor;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    .priceHeader {
+      position: relative;
+      width: 100%;
+      height: 4rem;
+      .priceHeaderText {
+        font-weight: bold;
+        line-height: 4rem;
+        padding-left: 0.85rem;
+      }
+      .underlineLine {
+        @include underlineLine(0.85rem, 3.2rem, 26%);
+      }
+    }
+    .priceBox {
+      width: 100%;
+      height: 130rem;
+      padding: 0 0.5rem;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      flex-direction: column;
+      .box-1 {
+        margin-top: 2rem;
+        position: relative;
+        max-width: 460px;
+        height: 40rem;
+        border: 1px solid gray;
+        @include priceBox(2);
+        @include priceTouch;
+      }
+      .box-2 {
+        position: relative;
+        max-width: 460px;
+        height: 40rem;
+        border: 1px solid gray;
+        @include priceBox(3);
+        @include priceTouch;
+      }
+      .box-3 {
+        position: relative;
+        max-width: 460px;
+        height: 40rem;
+        border: 1px solid gray;
+        @include priceBox(4);
+        @include priceTouch;
+      }
+    }
+  }
+}
+@media (min-width: 1024px) {
+  .priceWrap {
+    max-width: 900px;
+    height: 53rem;
+    background-color: $priceColor;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    margin: auto;
+    .priceHeader {
+      position: relative;
+      width: 100%;
+      height: 4rem;
+      top: 2rem;
+      .priceHeaderText {
+        font-weight: bold;
+        line-height: 4rem;
+        padding-left: 0.85rem;
+      }
+      .underlineLine {
+        @include underlineLine(0.85rem, 3.2rem, 26%);
+      }
+    }
+    .priceBox {
+      width: 100%;
+      height: 49rem;
+      padding: 0 0.5rem;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: row;
+      .box-1 {
+        position: relative;
+        max-width: 280px;
+        height: 40rem;
+        border: 1px solid gray;
+        @include priceBox(2);
+        @include priceTouch;
+        margin: 0;
+        &:hover {
+          transform: scale(1.15);
+        }
+      }
+      .box-2 {
+        position: relative;
+        max-width: 280px;
+        height: 40rem;
+        border: 1px solid gray;
+        @include priceBox(3);
+        @include priceTouch;
+        &:hover {
+          transform: scale(1.15);
+        }
+      }
+      .box-3 {
+        position: relative;
+        max-width: 280px;
+        height: 40rem;
+        border: 1px solid gray;
+        @include priceBox(4);
+        @include priceTouch;
+        &:hover {
+          transform: scale(1.15);
+        }
+      }
+    }
+  }
+}
+@media (min-width: 1280px) {
+  .priceWrap {
+    max-width: 960px;
+    height: 53rem;
+    background-color: $priceColor;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    margin: auto;
+    .priceHeader {
+      position: relative;
+      width: 100%;
+      height: 4rem;
+      top: 2rem;
+      .priceHeaderText {
+        font-weight: bold;
+        line-height: 4rem;
+        padding-left: 0.85rem;
+      }
+      .underlineLine {
+        @include underlineLine(0.85rem, 3.2rem, 26%);
+      }
+    }
+    .priceBox {
+      width: 100%;
+      height: 55rem;
+      padding: 0 0.5rem;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: row;
+      .box-1 {
+        position: relative;
+        max-width: 300px;
+        height: 40rem;
+        border: 1px solid gray;
+        @include priceBox(2);
+        @include priceTouch;
+        margin: 0;
+      }
+      .box-2 {
+        position: relative;
+        max-width: 300px;
+        height: 40rem;
+        border: 1px solid gray;
+        @include priceBox(3);
+        @include priceTouch;
+      }
+      .box-3 {
+        position: relative;
+        max-width: 300px;
+        height: 40rem;
+        border: 1px solid gray;
+        @include priceBox(4);
+        @include priceTouch;
+      }
+    }
+  }
+}
+@media (min-width: 1366px) {
+  .priceWrap {
+    max-width: 966px;
+    height: 53rem;
+    background-color: $priceColor;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    margin: auto;
+    .priceHeader {
+      position: relative;
+      width: 100%;
+      height: 4rem;
+      top: 2rem;
+      .priceHeaderText {
+        font-weight: bold;
+        line-height: 4rem;
+        padding-left: 0.85rem;
+      }
+      .underlineLine {
+        @include underlineLine(0.85rem, 3.2rem, 26%);
+      }
+    }
+    .priceBox {
+      width: 100%;
+      height: 55rem;
+      padding: 0 0.5rem;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: row;
+      .box-1 {
+        position: relative;
+        max-width: 302px;
+        height: 40rem;
+        border: 1px solid gray;
+        @include priceBox(2);
+        @include priceTouch;
+        margin: 0;
+      }
+      .box-2 {
+        position: relative;
+        max-width: 302px;
+        height: 40rem;
+        border: 1px solid gray;
+        @include priceBox(3);
+        @include priceTouch;
+      }
+      .box-3 {
+        position: relative;
+        max-width: 302px;
+        height: 40rem;
+        border: 1px solid gray;
+        @include priceBox(4);
+        @include priceTouch;
+      }
+    }
+  }
+}
+@media (min-width: 1440px) {
+  .priceWrap {
+    max-width: 1140px;
+    height: 53rem;
+    background-color: $priceColor;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    margin: auto;
+    .priceHeader {
+      position: relative;
+      width: 100%;
+      height: 4rem;
+      top: 2rem;
+      .priceHeaderText {
+        font-weight: bold;
+        line-height: 4rem;
+        padding-left: 0.85rem;
+      }
+      .underlineLine {
+        @include underlineLine(0.85rem, 3.2rem, 26%);
+      }
+    }
+    .priceBox {
+      width: 100%;
+      height: 55rem;
+      padding: 0 0.5rem;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: row;
+      .box-1 {
+        position: relative;
+        max-width: 332px;
+        height: 40rem;
+        border: 1px solid gray;
+        @include priceBox(2);
+        @include priceTouch;
+        margin: 0;
+      }
+      .box-2 {
+        position: relative;
+        max-width: 332px;
+        height: 40rem;
+        border: 1px solid gray;
+        @include priceBox(3);
+        @include priceTouch;
+      }
+      .box-3 {
+        position: relative;
+        max-width: 332px;
+        height: 40rem;
+        border: 1px solid gray;
+        @include priceBox(4);
+        @include priceTouch;
+      }
+    }
+  }
+}
+@media (min-width: 1600px) {
+  .priceWrap {
+    max-width: 1300px;
+    height: 53rem;
+    background-color: $priceColor;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    margin: auto;
+    .priceHeader {
+      position: relative;
+      width: 100%;
+      height: 4rem;
+      top: 2rem;
+      .priceHeaderText {
+        font-weight: bold;
+        line-height: 4rem;
+        padding-left: 0.85rem;
+      }
+      .underlineLine {
+        @include underlineLine(0.85rem, 3.2rem, 26%);
+      }
+    }
+    .priceBox {
+      width: 100%;
+      height: 55rem;
+      padding: 0 0.5rem;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: row;
+      .box-1 {
+        position: relative;
+        max-width: 372px;
+        height: 40rem;
+        border: 1px solid gray;
+        @include priceBox(2);
+        @include priceTouch;
+        margin: 0;
+      }
+      .box-2 {
+        position: relative;
+        max-width: 372px;
+        height: 40rem;
+        border: 1px solid gray;
+        @include priceBox(3);
+        @include priceTouch;
+      }
+      .box-3 {
+        position: relative;
+        max-width: 372px;
+        height: 40rem;
+        border: 1px solid gray;
+        @include priceBox(4);
+        @include priceTouch;
+      }
+    }
+  }
+}
+@media (min-width: 1920px) {
+  .priceWrap {
+    max-width: 1620px;
+    height: 53rem;
+    background-color: $priceColor;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    margin: auto;
+    .priceHeader {
+      position: relative;
+      width: 100%;
+      height: 4rem;
+      top: 2rem;
+      .priceHeaderText {
+        font-weight: bold;
+        line-height: 4rem;
+        padding-left: 0.85rem;
+      }
+      .underlineLine {
+        @include underlineLine(0.85rem, 3.2rem, 26%);
+      }
+    }
+    .priceBox {
+      width: 100%;
+      height: 55rem;
+      padding: 0 0.5rem;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: row;
+      .box-1 {
+        position: relative;
+        max-width: 440px;
+        height: 40rem;
+        border: 1px solid gray;
+        @include priceBox(2);
+        @include priceTouch;
+        margin: 0;
+      }
+      .box-2 {
+        position: relative;
+        max-width: 440px;
+        height: 40rem;
+        border: 1px solid gray;
+        @include priceBox(3);
+        @include priceTouch;
+      }
+      .box-3 {
+        position: relative;
+        max-width: 440px;
+        height: 40rem;
+        border: 1px solid gray;
+        @include priceBox(4);
+        @include priceTouch;
+      }
+    }
+  }
+}
+@media (min-width: 2560px) {
+  .priceWrap {
+    max-width: 1920px;
+    height: 53rem;
+    background-color: $priceColor;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    margin: auto;
+    .priceHeader {
+      position: relative;
+      width: 100%;
+      height: 4rem;
+      top: 2rem;
+      .priceHeaderText {
+        font-weight: bold;
+        line-height: 4rem;
+        padding-left: 0.85rem;
+      }
+      .underlineLine {
+        @include underlineLine(0.85rem, 3.2rem, 26%);
+      }
+    }
+    .priceBox {
+      width: 100%;
+      height: 55rem;
+      padding: 0 0.5rem;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: row;
+      .box-1 {
+        position: relative;
+        max-width: 480px;
+        height: 40rem;
+        border: 1px solid gray;
+        @include priceBox(2);
+        @include priceTouch;
+        margin: 0;
+      }
+      .box-2 {
+        position: relative;
+        max-width: 480px;
+        height: 40rem;
+        border: 1px solid gray;
+        @include priceBox(3);
+        @include priceTouch;
+      }
+      .box-3 {
+        position: relative;
+        max-width: 480px;
         height: 40rem;
         border: 1px solid gray;
         @include priceBox(4);
