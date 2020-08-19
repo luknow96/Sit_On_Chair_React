@@ -5,4 +5,4 @@ Technologies used
 -react router
 -sass
 
-preview this site
+preview this site: https://elated-clarke-562180.netlify.app
